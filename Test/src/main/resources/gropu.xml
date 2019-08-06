@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suitname">
+    <test name="runall">
+        <classes>
+            <class name="com.resource.testng.group.Group"/>
+            <class name="com.resource.testng.group.Group1"/>
+            <class name="com.resource.testng.group.Group2"/>
+        </classes>
+    </test>
+    <test name="onlyrunstu">
+        <!--这里的group标签里面的run标签控制运行什么，include name=这里是class文件里面的group是对应的-->
+        <groups>
+            <run>
+                <include name="student2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.resource.testng.group.Group"/>
+            <class name="com.resource.testng.group.Group1"/>
+            <class name="com.resource.testng.group.Group2"/>
+        </classes>
+    </test>
+</suite>

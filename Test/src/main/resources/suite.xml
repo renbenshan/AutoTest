@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suite>
-    <classes>
-        <class name=""
-    </classes>
+<suite name="test">
+    <test name="loginsusses">
+        <classes>
+            <class name="com.resource.testng.Suite.suiteconfig"/>
+            <class name="com.resource.testng.Suite.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="paysusses">
+        <classes>
+            <class name="com.resource.testng.Suite.suiteconfig"/>
+            <class name="com.resource.testng.Suite.payTest"/>
+        </classes>
+    </test>
 </suite>
