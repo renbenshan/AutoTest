@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parameMethond">
+    <test name="paramTest">
+        <parameter name="name" value="benshan"/>
+        <parameter name="age"  value="20"/>
+        <classes>
+            <class name="com.resource.testng.paramMethond.paramTest"/>
+        </classes>
+    </test>
+</suite>
