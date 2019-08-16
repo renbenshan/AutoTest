@@ -1,12 +1,14 @@
 [
   {
-    "description": "这是第一个调接口例子",
+    "description": "这是我们的第一个mock例子",
     "request": {
       "uri": "/demo"
     },
     "response": {
-      "test": "第一个mock框架的返回测试",
-      "code": "200"
+      "text": "第一个moco框架demo",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
     }
   }
-]
+ ]
