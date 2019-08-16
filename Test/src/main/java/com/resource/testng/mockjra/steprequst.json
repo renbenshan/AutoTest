@@ -6,8 +6,8 @@
     },
     "response": {
       "test": "欢迎来到本山分享会",
-      "header": {
-        "Content-Type": "text/html; charset=utf-8"
+      "headers": {
+        "Content-Type": "text/html; charset=gbk"
       }
     }
   }
