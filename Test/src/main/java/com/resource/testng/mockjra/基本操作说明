@@ -1,1 +1,9 @@
+//先起服务
 java -jar ./moco-runner-0.11.0-standalone.jar http -p 8009 -c step.json
+
+//get请求可以在浏览器去访问localhost：端口/uri
+//post请求的方式：jmeter访问，前提也是要先起服务和端口后，再去操作
+
+//带参数的get请求和 带post请求参数的区别
+
+request 下面的  "queries": {}   而post请求下面主要是："forms": {}

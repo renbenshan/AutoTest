@@ -2,12 +2,30 @@
   {
     "description": "这里是测试第二个demo例子",
     "request": {
-      "uri": "/fission/leaf"
+      "uri": "/fission",
+      "method": "get"
     },
     "response": {
-      "test": "欢迎来到本山分享会",
+      "text": "欢迎来到本山分享会",
       "headers": {
-        "Content-Type": "text/html; charset=gbk"
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+    },
+  {
+    "description": "这是测试get请求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get",
+      "queries": {
+        "name": "名称",
+        "bucketType": "101"
+      }
+    },
+    "response": {
+      "text": "这是活动的页面",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
       }
     }
   }
