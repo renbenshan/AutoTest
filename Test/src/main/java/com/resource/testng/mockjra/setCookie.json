@@ -1,0 +1,18 @@
+[
+  {
+    "description":"这是第一个设置cookie消息的get请求",
+    "request": {
+      "uri": "/setCookie",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "第一个测试get请求的cookie设置",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]
