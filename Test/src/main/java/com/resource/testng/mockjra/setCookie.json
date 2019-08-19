@@ -4,18 +4,19 @@
     "request": {
       "uri": "/setCookie",
       "method": "post",
-      "headers": {
-        "Content-Type": "application/json"
-      },
+
       "cookies": {
         "login": "true"
       },
       "json": {
-        "name": "ceshi",
+        "name": "测试",
         "status": 200
       }
     },
     "response": {
+      "headers": {
+        "Content-Type": "application/json"
+      },
       "json": {
         "code": 200,
         "status": "true"
