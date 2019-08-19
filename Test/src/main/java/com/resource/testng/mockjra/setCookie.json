@@ -3,15 +3,22 @@
     "description":"这是第一个设置cookie消息的get请求",
     "request": {
       "uri": "/setCookie",
-      "method": "get",
+      "method": "post",
+      "headers": {
+        "Content-Type": "application/json"
+      },
       "cookies": {
         "login": "true"
+      },
+      "json": {
+        "name": "ceshi",
+        "status": 200
       }
     },
     "response": {
-      "text": "第一个测试get请求的cookie设置",
-      "headers": {
-        "Content-Type": "text/html;charset=gbk"
+      "json": {
+        "code": 200,
+        "status": "true"
       }
     }
   }

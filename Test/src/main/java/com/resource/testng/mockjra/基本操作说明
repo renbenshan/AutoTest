@@ -7,3 +7,7 @@ java -jar ./moco-runner-0.11.0-standalone.jar http -p 8009 -c step.json
 //带参数的get请求和 带post请求参数的区别
 
 request 下面的  "queries": {}   而post请求下面主要是："forms": {}
+此时的content-type：   存在于response中
+"headers": { "Content-Type": "text/html;charset=gbk" }
+request 下面的使用json格式时，入参和出参都是json格式时，需要使用request 中的
+"headers": {"Content-Type": "application/json" }
